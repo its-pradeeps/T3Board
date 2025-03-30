@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F89B53">
+
+    
+
+    /* reset button*/
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/resetbutton"
+        android:id="@+id/resetbutton">
+    </ImageView>
+
+
+    /* buttom 5 */
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/b5">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonClicked"
+            android:id="@+id/bi5">
+        </ImageView>
+    </RelativeLayout>
+
+    /* buttom 8 */
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/b5"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="28dp"
+        android:id="@+id/b8">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonClicked"
+            android:id="@+id/bi8">
+        </ImageView>
+    </RelativeLayout>
+
+    /* buttom 2 */
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/b5"
+
+        android:layout_marginBottom="28dp"
+        android:id="@+id/b2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonClicked"
+            android:id="@+id/bi2">
+        </ImageView>
+    </RelativeLayout>
+
+    /* buttom 4 */
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/b5"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="20dp"
+
+        android:id="@+id/b4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonClicked"
+            android:id="@+id/bi4">
+        </ImageView>
+    </RelativeLayout>
+
+    /* buttom 6 */
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/b5"
+        android:layout_marginLeft="28dp"
+        android:id="@+id/b6">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonClicked"
+            android:id="@+id/bi6">
+        </ImageView>
+    </RelativeLayout>
+
+    /* buttom 1 */
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/b2"
+        android:layout_above="@id/b4"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/b1">
+
+        <ImageView
+            android:id="@+id/bi1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonClicked">
+
+        </ImageView>
+    </RelativeLayout>
+
+    /* buttom 3 */
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/b2"
+        android:layout_above="@id/b6"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="28dp"
+        android:id="@+id/b3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonClicked"
+            android:id="@+id/bi3">
+        </ImageView>
+    </RelativeLayout>
+
+    /* buttom 7 */
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/b2"
+        android:layout_below="@id/b4"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="28dp"
+        android:id="@+id/b7">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonClicked"
+            android:id="@+id/bi7">
+        </ImageView>
+    </RelativeLayout>
+
+    /* buttom 9 */
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/b2"
+        android:layout_below="@id/b6"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="28dp"
+        android:id="@+id/b9">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="buttonClicked"
+            android:id="@+id/bi9">
+        </ImageView>
+    </RelativeLayout>
+
+
+    /* textview turn */
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/b2"
+        android:layout_marginBottom="80dp"
+        android:id="@+id/turn">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/x"
+            android:id="@+id/turni">
+        </ImageView>
+    </RelativeLayout>
+
+
+    /* board horizonatal line 1 */
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="13dp"
+        android:background="#A6111111"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/b5"
+        android:layout_marginBottom="8dp">
+    </RelativeLayout>
+
+    /* board horizonatal line 2 */
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="13dp"
+        android:background="#A6111111"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/b5"
+        android:layout_marginTop="8dp">
+    </RelativeLayout>
+
+    /* board vertical line 1 */
+    <RelativeLayout
+        android:layout_width="13dp"
+        android:layout_height="350dp"
+        android:background="#A6111111"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/b5"
+        android:layout_marginRight="8dp">
+    </RelativeLayout>
+
+    /* board vertical line 2 */
+    <RelativeLayout
+        android:layout_width="13dp"
+        android:layout_height="350dp"
+        android:background="#A6111111"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/b5"
+        android:layout_marginLeft="8dp">
+    </RelativeLayout>
+
+
+    /* score board */
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b8"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true">
+
+        /* text x*/
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="35dp"
+            android:id="@id/X"
+            android:text="X">
+        </TextView>
+
+        /* score board vertical line  */
+        <RelativeLayout
+            android:layout_width="7dp"
+            android:layout_height="150dp"
+            android:background="#A6111111"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/X"
+            android:layout_marginLeft="35dp">
+        </RelativeLayout>
+
+        /* text o */
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/X"
+            android:layout_marginLeft="80dp"
+            android:id="@id/Y"
+            android:text="O">
+        </TextView>
+
+        /* score board horizonatal line */
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="7dp"
+            android:background="#A6111111"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/X">
+        </RelativeLayout>
+
+        /* textview score x */
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/X"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/scoreX"
+            android:text="0">
+        </TextView>
+
+        /* textview score o*/
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Y"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="147dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/scoreO"
+            android:text="0">
+        </TextView>
+
+    </RelativeLayout>
+
+    
+
+
+</RelativeLayout>
