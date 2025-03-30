@@ -12,14 +12,9 @@ This Android app allows two players to play Tic Tac Toe on a single device. It f
 ## Screenshots
 Here are some screenshots of the application:
 
-![Screenshot of the game board](screenshots/game_board.png)
-_The main game board._
-
-![Screenshot of a winning game](screenshots/win_screen.png)
-_The winning screen._
-
-![Screenshot of a draw game](screenshots/draw_screen.png)
-_The draw screen._
+|           Game Board            |           Win Screen            |            Win Screen            |
+|:-------------------------------:|:-------------------------------:|:--------------------------------:|
+| ![](screenshots/game_board.png) | ![](screenshots/win_screen.png) | ![](screenshots/draw_screen.png) |
 
 ## Technologies Used
 
